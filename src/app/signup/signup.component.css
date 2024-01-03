@@ -1,0 +1,270 @@
+
+
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:  #222;
+  height: 8vh;
+}
+
+
+.icon .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10%;
+
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.menu ul li {
+  margin-right: 50px;
+
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+
+.menu ul li a:hover {
+  color: #e50914;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: -1%;
+  background-color: black;
+  color: #fff;
+}
+
+.containerbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #222;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.form h1 {
+  color: #e50914;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #e50914;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 106%;
+  background-color: #e50914;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* Signup button styles */
+
+
+button:hover {
+  background-color: rgb(106, 255, 47);
+  color:#000
+}
+
+/* Custom styles for the "Gender" field */
+.gender-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.gender-options input[type="text"] {
+  flex: 1;
+}
+
+/* Custom styles for the "Gender" radio buttons */
+.gender-options input[type="radio"] {
+  display: none;
+}
+
+.gender-options label {
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  color: #fff;
+  text-align: center;
+  flex: 1;
+  margin-left: 2%;
+}
+
+.gender-options label:hover {
+  background-color: #444;
+}
+
+/* Custom styles for the selected option */
+.gender-options input[type="radio"]:checked + label {
+  background-color: #e50914;
+}
+
+/* Custom styles for the "Confirm Password" field */
+.confirmPassword-container {
+  position: relative;
+}
+
+
+.footer {
+  background-color: #141414;
+  padding: 40px 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+ margin-left: -1%;
+ margin-right: -1%;
+ margin-bottom: -1%;
+ margin-top: 1%;
+}
+
+
+.containerfooter {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-us,
+.address,
+.social-links {
+  flex: 1;
+}
+
+.about-us h4
+{margin-bottom: 20px;
+  font-size: 18px;
+}
+.about-us p
+{
+  margin-bottom: 20px;
+  font-size: 15px;
+  margin-left:-50%;
+}
+
+.address h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: 60%;
+}
+
+.address p {
+  margin-bottom: 10px;
+  margin-left: 60%;
+}
+
+.social-links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-top:7%;
+}
+
+.social-links li {
+  margin-left: 30px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.social-links a:hover {
+  color: #e50914;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .containerfooter {
+    flex-wrap: wrap;
+  }
+
+  .about-us,
+  .address,
+  .social-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-us h4,
+  .address h4 {
+    margin-bottom: 15px;
+  }
+
+  .social-links ul {
+    justify-content: flex-start;
+  }
+}

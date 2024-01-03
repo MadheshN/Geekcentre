@@ -1,0 +1,74 @@
+<!--<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+  <div class="navbar">
+  <div class="icon">
+      <h2 class="logo">Toonmics</h2>
+  </div>
+  <div class="menu">
+      <ul>
+          <li><a routerLink="/marvel">MARVEL</a></li>
+          <li><a routerLink="/dc">DC</a></li>
+          <li><a routerLink="/shonen">SHONEN</a></li>
+          <li><a routerLink="/shojo">SHOJO</a></li>
+          <li><a routerLink="/seinen">SEINEN</a></li>
+          <li><a routerLink="/kodomomuke">KODOMOMUKE</a></li>
+          <li><a routerLink="/orders"><i class="fa fa-shopping-bag"></i></a></li>
+        <li><a routerLink="/wishlist"><i class="fa fa-heart"></i></a></li>
+        <li><a routerLink="/cart"><i class="fa fa-shopping-cart"></i></a></li>
+        <li><a routerLink="/index"><i class="fa fa-sign-out"></i></a></li>
+      </ul>
+  </div>
+</div>
+
+
+<div class="comics">
+  <!-- Display existing items -->
+  <div *ngFor="let item of home">
+    <!-- Display item details -->
+    <div>
+      <img [src]="item.img" alt="{{ item.title }}" />
+      <h3>{{ item.title }}</h3>
+      <p>Author: {{ item.author }}</p>
+      <p>Price: {{ item.price }}</p>
+      <!-- Add a delete button for each item -->
+    <!--  <button (click)="deleteItem(item.id)">Delete</button>-->
+    </div>
+  </div>
+
+  <!-- Form to add a new item -->
+  <div>
+    <h3>Add New Item</h3>
+    <form (submit)="addItem()">
+      <input type="text" [(ngModel)]="newItemTitle" placeholder="Title" />
+      <input type="text" [(ngModel)]="newItemAuthor" placeholder="Author" />
+      <input type="text" [(ngModel)]="newItemImage" placeholder="Image URL" />
+      <input type="text" [(ngModel)]="newItemPrice" placeholder="Price" />
+      <button type="submit">Add Item</button>
+    </form>
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="about-us">
+      <h4>About Us</h4>
+      <p>We are passionate about providing a seamless and immersive reading experience for comic and manga enthusiasts. With our app, you can explore a vast collection of comics and manga from various genres, including superheroes, fantasy, romance, action, and more. Dive into captivating stories and stunning artwork that will keep you hooked for hours. Our mission is to bring offering a convenient and user-friendly platform to discover, read, and enjoy your favorite titles. Whether you're a casual reader or a die-hard fan, we've got something for everyone. Join our community of readers, interact with fellow comic enthusiasts, and stay updated on the latest releases. We're dedicated to delivering the best reading experience, continuously improving our app, and expanding our library with new and exciting content. Thank you for choosing our app to embark on your comic and manga reading journey. </p>
+    </div>
+    <div class="address">
+      <h4>Contact Us</h4>
+      <p>1234 Gandhi Street, Coimbatore, Tamil Nadu, India</p>
+      <p>Email: toonmics@gmail.com</p>
+      <p>Phone: 456-456-7890</p>
+    </div>
+    <div class="social-links">
+      <ul>
+        <li><a routerLink= "https://www.facebook.com/profile.php?id=100094265611706"><i class="fa fa-facebook"></i></a></li>
+        <li><a routerLink= "https://twitter.com/Toonmics"><i class="fa fa-twitter"></i></a></li>
+        <li><a routerLink= "https://instagram.com/toon.mics?igshid=ZDc4ODBmNjlmNQ=="><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>

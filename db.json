@@ -1,0 +1,1254 @@
+{
+  "user": [
+    {
+      "username": "madhesh",
+      "password": "mad@13",
+      "id": 1
+    },
+    {
+      "username": "Sivakumar",
+      "password": "Shweta",
+      "mobile": "9080745399",
+      "dob": "2001-12-24",
+      "id": 2,
+      "wishlists": []
+    },
+    {
+      "username": "Madhesh",
+      "password": "mad@13",
+      "mobile": "9361231440",
+      "dob": "2002-02-27",
+      "id": 3,
+      "wishlists": []
+    },
+    {
+      "username": "NItheesh",
+      "password": "mitti",
+      "mobile": "935123456",
+      "dob": "2002-01-10",
+      "id": 4,
+      "wishlists": []
+    },
+    {
+      "username": "rohit",
+      "password": "mi45",
+      "mobile": "8526078121",
+      "dob": "1995-05-16",
+      "id": 5,
+      "wishlists": []
+    },
+    {
+      "username": "dhoni",
+      "password": "ms",
+      "mobile": "7896567655",
+      "dob": "1998-07-07",
+      "id": 6,
+      "wishlists": []
+    },
+    {
+      "username": "Shilpa",
+      "password": "Aspire",
+      "mobile": "9867546790",
+      "dob": "1985-07-08",
+      "id": 7,
+      "wishlists": []
+    },
+    {
+      "username": "Dinesh",
+      "password": "rohit",
+      "mobile": "9361234566",
+      "dob": "2002-09-12",
+      "id": 8,
+      "wishlists": []
+    },
+    {
+      "username": "Pavithra",
+      "password": "pavi",
+      "mobile": "9994317138",
+      "dob": "2001-09-06",
+      "id": 9,
+      "wishlists": []
+    },
+    {
+      "username": "Kathir",
+      "password": "1234",
+      "mobile": "9870657889",
+      "dob": "2001-04-07",
+      "id": 10,
+      "wishlists": []
+    },
+    {
+      "username": "venkat",
+      "password": "vr",
+      "mobile": "9600474607",
+      "dob": "2002-06-11",
+      "id": 11,
+      "wishlists": []
+    },
+    {
+      "name": "kathir",
+      "dob": "2001-07-06",
+      "phonenumber": "9876565434",
+      "email": "kathir@gmail.com",
+      "gender": "male",
+      "password": "kathir@toonmics",
+      "id": 12,
+      "wishlists": []
+    },
+    {
+      "username": "kathir",
+      "password": "kathir@toonmics",
+      "id": 13,
+      "wishlists": []
+    },
+    {
+      "name": "bharath",
+      "dob": "2001-05-04",
+      "phonenumber": "9894403796",
+      "email": "bharath2@gmail.com",
+      "gender": "male",
+      "password": "bharath@toonmics",
+      "id": 14,
+      "wishlists": []
+    },
+    {
+      "username": "bharath",
+      "password": "bharath@toonmics",
+      "id": 15,
+      "wishlists": []
+    },
+    {
+      "name": "Naveen",
+      "dob": "2001-06-10",
+      "phonenumber": "9597295019",
+      "email": "naveen10@gmail.com",
+      "gender": "male",
+      "password": "shanks",
+      "id": 16,
+      "wishlists": []
+    },
+    {
+      "username": "Naveen",
+      "password": "shanks",
+      "id": 17,
+      "wishlists": []
+    },
+    {
+      "name": "luffy",
+      "dob": "2000-01-10",
+      "phonenumber": "9320021489",
+      "email": "monkeydluffy@gmail.com",
+      "gender": "male",
+      "password": "pirateking",
+      "id": 18,
+      "wishlists": []
+    },
+    {
+      "username": "luffy",
+      "password": "pirateking",
+      "id": 19,
+      "wishlists": []
+    },
+    {
+      "name": "miles",
+      "dob": "2006-04-23",
+      "phonenumber": "9342990021",
+      "email": "milesmorales42@gmail.com",
+      "gender": "male",
+      "password": "miles@42",
+      "id": 20,
+      "wishlists": []
+    },
+    {
+      "username": "miles",
+      "password": "miles@42",
+      "id": 21,
+      "wishlists": []
+    },
+    {
+      "name": "miles",
+      "dob": "2006-04-23",
+      "phonenumber": "9342990021",
+      "email": "milesmorales42@gmail.com",
+      "gender": "male",
+      "password": "miles@42",
+      "id": 22,
+      "wishlists": []
+    },
+    {
+      "username": "miles",
+      "password": "miles@42",
+      "id": 23,
+      "wishlists": []
+    },
+    {
+      "name": "peter",
+      "dob": "1998-12-12",
+      "phonenumber": "6354892389",
+      "email": "peterparker@gmail.com",
+      "gender": "male",
+      "password": "peter@1990",
+      "id": 24,
+      "wishlists": []
+    },
+    {
+      "username": "peter",
+      "password": "peter@1990",
+      "id": 25,
+      "wishlists": []
+    },
+    {
+      "name": "gopi",
+      "dob": "2001-01-05",
+      "phonenumber": "7010783036",
+      "email": "gopikrishnan@gmail.com",
+      "gender": "male",
+      "password": "gopi123",
+      "id": 26,
+      "wishlists": []
+    },
+    {
+      "username": "gopi",
+      "password": "gopi123",
+      "id": 27,
+      "wishlists": []
+    },
+    {
+      "name": "",
+      "dob": "",
+      "phonenumber": "",
+      "email": "",
+      "gender": "",
+      "password": "",
+      "id": 28,
+      "wishlists": []
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 29,
+      "wishlists": []
+    },
+    {
+      "name": "",
+      "dob": "",
+      "phonenumber": "",
+      "email": "",
+      "gender": "",
+      "password": "",
+      "id": 30,
+      "wishlists": []
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 31,
+      "wishlists": []
+    },
+    {
+      "name": "jegadhish",
+      "dob": "2003-05-06",
+      "phonenumber": "8428160873",
+      "email": "jegadhish13@gmail.com",
+      "gender": "male",
+      "password": "jega",
+      "id": 32,
+      "wishlists": []
+    },
+    {
+      "username": "jegadhish",
+      "password": "jega",
+      "id": 33,
+      "wishlists": []
+    },
+    {
+      "name": "suriya",
+      "dob": "2002-09-09",
+      "phonenumber": "9698719132",
+      "email": "suriya123@gmail.com",
+      "gender": "male",
+      "password": "suriyav@toonmics",
+      "id": 34,
+      "wishlists": []
+    },
+    {
+      "username": "suriya",
+      "password": "suriyav@toonmics",
+      "id": 35,
+      "wishlists": []
+    },
+    {
+      "name": "Logu.M",
+      "phoneNumber": "7708364795",
+      "dob": "2001-09-05",
+      "gender": "male",
+      "password": "logu@toonmics",
+      "confirmPassword": "logu@toonmics",
+      "id": 36,
+      "wishlists": []
+    },
+    {
+      "name": "Ansari",
+      "phoneNumber": "9965407978",
+      "dob": "1996-08-18",
+      "gender": "male",
+      "password": "barney",
+      "confirmPassword": "barney",
+      "id": 37,
+      "wishlists": []
+    },
+    {
+      "name": "Aravindsaamy",
+      "phoneNumber": "7604879025",
+      "dob": "2001-07-11",
+      "gender": "male",
+      "password": "aravi2k",
+      "confirmPassword": "aravi2k",
+      "id": 38,
+      "wishlists": []
+    },
+    {
+      "name": "Kannan.M",
+      "phoneNumber": "6379530810",
+      "dob": "2002-07-09",
+      "gender": "male",
+      "password": "kannan@toonmics",
+      "confirmPassword": "kannan@toonmics",
+      "id": 39,
+      "wishlists": []
+    },
+    {
+      "name": "Sai Akash",
+      "phoneNumber": "8952650771",
+      "dob": "2003-06-06",
+      "gender": "male",
+      "password": "sai@toonmics",
+      "confirmPassword": "Sai@toonmics",
+      "id": 40,
+      "wishlists": []
+    },
+    {
+      "name": "kavin",
+      "phoneNumber": "9361347850",
+      "dob": "2005-06-23",
+      "gender": "male",
+      "password": "kavin@toonmics",
+      "confirmPassword": "kavin@toonmics",
+      "id": 41,
+      "wishlists": []
+    },
+    {
+      "name": "Prayan",
+      "phoneNumber": "6374034615",
+      "dob": "2002-07-16",
+      "gender": "male",
+      "password": "prayanmikku",
+      "confirmPassword": "prayanmikku",
+      "id": 42,
+      "wishlists": []
+    },
+    {
+      "name": "Dhilip Kumar",
+      "phoneNumber": "7092500269",
+      "dob": "2004-12-03",
+      "gender": "male",
+      "password": "dhilip@toonmics",
+      "confirmPassword": "dhilip",
+      "id": 43,
+      "wishlists": []
+    },
+    {
+      "name": "Raswanth",
+      "phoneNumber": "9788923316",
+      "dob": "2002-05-04",
+      "gender": "male",
+      "password": "raswanth@toonmics",
+      "confirmPassword": "raswanth@toonmics",
+      "id": 44,
+      "wishlists": []
+    },
+    {
+      "name": "Hariprasath",
+      "phoneNumber": "6380141658",
+      "dob": "2004-07-16",
+      "gender": "male",
+      "password": "hari@toonmics",
+      "confirmPassword": "hari@toonmics",
+      "id": 45,
+      "wishlists": []
+    },
+    {
+      "name": "Aswin",
+      "phoneNumber": "8680883280",
+      "dob": "2001-06-07",
+      "gender": "male",
+      "password": "aswin@123",
+      "confirmPassword": "aswin@123",
+      "id": 46
+    },
+    {
+      "name": "Kathiravan",
+      "phoneNumber": "7904622543",
+      "dob": "2002-05-05",
+      "gender": "male",
+      "password": "kathir@123",
+      "confirmPassword": "kathir@123",
+      "id": 47
+    }
+  ],
+  "marvel": [
+    {
+      "id": 121,
+      "title": "ABSOLUTE CARNAGE ",
+      "author": "DONNY CATES | 2019",
+      "img": "/assets/accm.jpg",
+      "price": " Rs.500 ",
+      "link": "/payment"
+    },
+    {
+      "id": 122,
+      "title": "IRONHEART",
+      "author": "BENDIS | 2016",
+      "img": "/assets/IRONHEART.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 123,
+      "title": "CHAMPIONS",
+      "author": "SABARNA ROY | 2021",
+      "img": "/assets/champions.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 124,
+      "title": "DAREDEVIL",
+      "author": "ZDARSKY| 2019",
+      "img": "/assets/DAREDEVIL.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 125,
+      "title": "ETERNALS",
+      "author": "JACK KIRFY | 1976",
+      "img": "/assets/eternals.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 126,
+      "title": "FANTASTIC FOUR",
+      "author": "STAN LEE | 1961",
+      "img": "/assets/ff.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 127,
+      "title": "MORBIUS",
+      "author": "RALPH | 2021",
+      "img": "/assets/MORBIUS.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 128,
+      "title": "OLDMAN HAWKEYE",
+      "author": "STANLEE | 2018",
+      "img": "/assets/OMH.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 129,
+      "title": "INHUMANS",
+      "author": "CARLOS | 2000",
+      "img": "/assets/ih.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 130,
+      "title": "INFINITY GAUNTLET",
+      "author": "JIM STARLIN | 1998",
+      "img": "/assets/INFINITY GAUNTLET.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 131,
+      "title": "KING THOR",
+      "author": "JASON AARON | 2019",
+      "img": "/assets/KT.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 132,
+      "title": "LOKI",
+      "author": "KIBBLE  | 2019",
+      "img": "/assets/loki.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 133,
+      "title": "MIDNIGHT SONS",
+      "author": "HOWARD | 1992",
+      "img": "/assets/MNS.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 134,
+      "title": "NEW MUTANTS",
+      "author": "CHRIS | 2012",
+      "img": "/assets/nm.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 135,
+      "title": "COSMIC GHOST RIDER",
+      "author": "DONNY | 2023",
+      "img": "/assets/CGR.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 136,
+      "title": "PUNISHER",
+      "author": "GREY  | 2000",
+      "img": "/assets/PUNISHER.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 137,
+      "title": "ROCKET RACCOON",
+      "author": "BILL MANTLO | 1985",
+      "img": "/assets/RR.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 139,
+      "title": "SHANG CHI",
+      "author": "GENE LUAN YANG | 2020",
+      "img": "/assets/SC.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 141,
+      "title": "ULTIMATE SPIDERMAN",
+      "author": "BRIAN | 2000",
+      "img": "/assets/USM.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 142,
+      "title": "VENOM",
+      "author": "DANIEL WAY | 2003",
+      "img": "/assets/VENOM.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 144,
+      "title": "X-MEN ORIGINS",
+      "author": "CHRIS SIMS | 2009",
+      "img": "/assets/XM.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 145,
+      "title": "YOUNG AVENGERS",
+      "author": "KIERON GILLEN | 2013",
+      "img": "/assets/YA.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 146,
+      "title": "MARVEL ZOMBIES",
+      "author": "ROBERT | 2006",
+      "img": "/assets/ZOMBIES.jpeg",
+      "price": " Rs.500 "
+    }
+  ],
+  "dc": [
+    {
+      "id": 147,
+      "title": "AQUAMAN",
+      "author": "PAUL NORRIS | 1941",
+      "img": "/assets/AM.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 148,
+      "title": "ARKHAM ASYLUM",
+      "author": "JURGEN | 1989",
+      "img": "assets/aa3.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 149,
+      "title": "CATWOMEN",
+      "author": "BOB KANE | 1981",
+      "img": "/assets/CW.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 150,
+      "title": "DARK CRISIS",
+      "author": "JOSHUA | 2022",
+      "img": "/assets/DC.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 151,
+      "title": "FLASHPOINT",
+      "author": "ANDY KUBERT | 2011",
+      "img": "/assets/FP.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 152,
+      "title": "JOKER",
+      "author": "MAGGIN | 1975",
+      "img": "/assets/JOKER.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 153,
+      "title": "WONDER WOMAN",
+      "author": "MEREDITH | 2016",
+      "img": "/assets/wwm.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 154,
+      "title": "PEACEMAKER",
+      "author": "JOE GILL | 1966",
+      "img": "/assets/PEACEMAKER.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 155,
+      "title": "GREEN LANTERN",
+      "author": "JOHN | 1960",
+      "img": "/assets/GL.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 156,
+      "title": "BLACK ADAM",
+      "author": "OTTO | 1945",
+      "img": "/assets/BA.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 157,
+      "title": "SHAZAM",
+      "author": "BILL PARKER | 1939",
+      "img": "/assets/SHAZAM.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 158,
+      "title": "GREEN ARROW",
+      "author": "GEORGE | 1941",
+      "img": "/assets/GA.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 159,
+      "title": "BATGIRL",
+      "author": "FOX | 1967",
+      "img": "/assets/BG.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 160,
+      "title": "DARKSEID",
+      "author": "GEOFF | 2021",
+      "img": "/assets/DS.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 161,
+      "title": "THE SUICIDE SQUAD",
+      "author": "OSTANDER | 1987",
+      "img": "/assets/TSS.jpg",
+      "price": " Rs.750 "
+    }
+  ],
+  "shojo": [
+    {
+      "id": 162,
+      "title": "AO HARU RIDE",
+      "author": "YOSHIDA | 2014",
+      "img": "/assets/AHR.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 163,
+      "title": "SAILOR MOON",
+      "author": "NAOKO | 1991",
+      "img": "/assets/SM.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 164,
+      "title": "FRUITS BASKET",
+      "author": "HANA | 1998",
+      "img": "/assets/FB.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 165,
+      "title": "SKIP BEAT",
+      "author": "YOSHIKI | 2002",
+      "img": "/assets/SB.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 166,
+      "title": "LOVELY COMPLEX",
+      "author": "AYA AAKHARA | 2011",
+      "img": "/assets/LC.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 167,
+      "title": "LAST GAME",
+      "author": "AMANO | 2011",
+      "img": "/assets/LG.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 168,
+      "title": "SPECIAL A",
+      "author": "MAKI | 2003",
+      "img": "/assets/SA.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 169,
+      "title": "SAY I LOVE YOU",
+      "author": "KANAE | 2012",
+      "img": "/assets/SAY.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 170,
+      "title": "DENGEKI DAISY",
+      "author": "MOTOMI| 2002",
+      "img": "/assets/DDD.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 171,
+      "title": "CARDCAPTOR SAKURA",
+      "author": "CLAMP | 1997",
+      "img": "/assets/CCS.jpg",
+      "price": " Rs.750 "
+    }
+  ],
+  "shonen": [
+    {
+      "id": 172,
+      "title": "BLACK CLOVER",
+      "author": "KONO | 2017",
+      "img": "/assets/bc.jpg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 173,
+      "title": "CHAINSAW MAN",
+      "author": "HISHIKAWA | 2021",
+      "img": "/assets/csm.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 174,
+      "title": "DEATH NOTE",
+      "author": "TSUGAMI | 2003",
+      "img": "/assets/dn.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 175,
+      "title": "FAIRY TALE",
+      "author": "STEPHEN KING | 2022",
+      "img": "/assets/ft.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 176,
+      "title": "GINTAMA",
+      "author": "SORACHI | 2003",
+      "img": "/assets/gintama.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 177,
+      "title": "HAIKYU",
+      "author": "HARUCHI | 2011",
+      "img": "/assets/haikyu.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 178,
+      "title": "BLEACH",
+      "author": "TITE KUBO | 2001",
+      "img": "/assets/bleach.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 179,
+      "title": "NARUTO",
+      "author": "KISHIMOTO | 1999",
+      "img": "/assets/naruto.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 180,
+      "title": "ONEPIECE",
+      "author": "EIICHIRO ODA | 1997",
+      "img": "/assets/op.jpeg",
+      "price": " Rs.1000 "
+    },
+    {
+      "id": 181,
+      "title": "DEMON SLAYER",
+      "author": "GOTOUGE | 2019",
+      "img": "/assets/DEMON SLAYER.jpg",
+      "price": " Rs.1000 "
+    }
+  ],
+  "seinen": [
+    {
+      "id": 182,
+      "title": "AKIRA",
+      "author": "OTOMO | 1982",
+      "img": "/assets/akira.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 183,
+      "title": "BERSERK",
+      "author": "MIURA | 1990",
+      "img": "/assets/berserk.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 184,
+      "title": "PARASYTE",
+      "author": "IWAKKI | 1988",
+      "img": "/assets/ps.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 185,
+      "title": "MONSTER",
+      "author": "WALTER DEAN | 1999",
+      "img": "/assets/monster.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 186,
+      "title": "TOKYO GHOUL",
+      "author": "ISHIDA | 2011",
+      "img": "/assets/tg.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 187,
+      "title": "VINLAND SAGA",
+      "author": "YUKIMARA | 2005",
+      "img": "/assets/vs.jpeg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 188,
+      "title": "VAGABOND",
+      "author": "INOUE | 1998",
+      "img": "/assets/VB.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 189,
+      "title": "ONE PUNCH MAN",
+      "author": "SUZUKI | 2015",
+      "img": "/assets/OPM.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 190,
+      "title": "KINGDOM",
+      "author": "YASUHISA | 1975",
+      "img": "/assets/KINGDOM.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 191,
+      "title": "PLUTO",
+      "author": "URASAWA | 2009",
+      "img": "/assets/PLUTO.jpg",
+      "price": " Rs.500 "
+    }
+  ],
+  "kodomomuke": [
+    {
+      "id": 192,
+      "title": "ASTRO BOY",
+      "author": "OSAMU TEZUKA | 1952",
+      "img": "/assets/ab.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 193,
+      "title": "DORAEMON",
+      "author": "FUJUKU | 1969",
+      "img": "/assets/doraemon.png",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 194,
+      "title": "YOKAI WATCH",
+      "author": "NORIYAKI | 2012",
+      "img": "/assets/yokai.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 195,
+      "title": "BEYBLADE",
+      "author": "YOSHIO | 2002",
+      "img": "/assets/bb.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 196,
+      "title": "SONIC",
+      "author": "HIROKAZU | 1992",
+      "img": "/assets/sonic.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 197,
+      "title": "POKEMON ADVENTURES",
+      "author": "HIDENORI | 1997",
+      "img": "/assets/pm.jpg"
+    },
+    {
+      "id": 198,
+      "title": "DRAGON BALL",
+      "author": "TORIYAMA | 1984",
+      "img": "/assets/DBZ.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 199,
+      "title": "CRAYON SHIN CHAN",
+      "author": "USUI | 1990",
+      "img": "/assets/SHINCHAN.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 200,
+      "title": "JACKIE CHAN : ADVENTURES",
+      "author": "JOHN ROGERS | 2000",
+      "img": "/assets/JCA.jpg",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 201,
+      "title": "NINJA HATTORI",
+      "author": "INOUE | 1966",
+      "img": "/assets/NINJA HATTORI.jpg",
+      "price": " Rs.250 "
+    }
+  ],
+  "wishlist": [
+    {
+      "uname": "Dinesh",
+      "id": 219,
+      "title": "INJUSTICE 2",
+      "img": "assets/IJ.jpg"
+    }
+  ],
+  "home": [
+    {
+      "id": 208,
+      "title": "CIVIL WAR",
+      "author": "MARK MILLER | 2006",
+      "img": "assets/cw3.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 209,
+      "title": "OLD MAN LOGAN",
+      "author": "MARK MILLER | 2016",
+      "img": "assets/oml4.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 210,
+      "title": "I AM GROOT",
+      "author": "STAN LEE | 1960",
+      "img": "assets/groot.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 211,
+      "title": "DEADPOOL",
+      "author": "WERNICK | 2015",
+      "img": "assets/dp.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 212,
+      "title": "GURDIANS",
+      "author": "BRIAN | 2016",
+      "img": "assets/gurdians.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 213,
+      "title": "SPIDERMAN 2099",
+      "author": "PETER DAVID | 2016",
+      "img": "assets/SM2099.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 214,
+      "title": "THE DARK KNIGHT",
+      "author": "FRANK  | 1986",
+      "img": "assets/dk2.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 215,
+      "title": "ALLSTAR SUPERMAN",
+      "author": "MORRINSON | 2005",
+      "img": "assets/sm2.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 216,
+      "title": "AQUAMAN",
+      "author": "BRANDON | 2021",
+      "img": "assets/AM.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 217,
+      "title": "WATCHMEN",
+      "author": "ALAN MOORE | 1986",
+      "img": "assets/wm3.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 218,
+      "title": "RICKY AND MORTY",
+      "author": "ZAC | 2015",
+      "img": "assets/RM.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 219,
+      "title": "INJUSTICE 2",
+      "author": "TOM TAYLOR | 2017",
+      "img": "assets/IJ.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 220,
+      "title": "ATTACK ON TITAN : FINAL CHAPTER",
+      "author": "ISAYAMA | 25.12.2022",
+      "img": "assets/aot-final chapter.jpg",
+      "price": " Rs.75 "
+    },
+    {
+      "id": 221,
+      "title": "ONE PIECE : CHAPTER 1079",
+      "author": "ODA | 24.03.2023",
+      "img": "assets/one piece-chapter 1079.jpg",
+      "price": " Rs.75 "
+    },
+    {
+      "id": 222,
+      "title": "JUJUTSU KAISEN : CHAPTER 211",
+      "author": "AKUTAMI | 27.12.2022 ",
+      "img": "assets/JJk-chapter 221.jpg",
+      "price": " Rs.75 "
+    },
+    {
+      "id": 223,
+      "title": "MHA : CHAPTER 379",
+      "author": "HORIKOSHI | 07.05.2023",
+      "img": "assets/myheroacademia.jpg",
+      "price": " Rs.75 "
+    },
+    {
+      "id": 223,
+      "title": "BORUTO",
+      "author": "KISHIMOTO | 21.02.2023",
+      "img": "assets/boruto chapter 78.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 224,
+      "title": "TOKYO REVENGERS : FINAL CHAPTER",
+      "author": "KEN WAKUI | 20.06.2022",
+      "img": "assets/tokyorevenger-final chapter.jpg",
+      "price": " Rs.75 "
+    },
+    {
+      "id": 225,
+      "title": "GINTAMA",
+      "author": "HIDAKI | 2003",
+      "img": "assets/gintama.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 226,
+      "title": "FRUITS BASKET",
+      "author": "NATSUKI | 1998",
+      "img": "assets/fb2.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 227,
+      "title": "NANA",
+      "author": "AI YAZAMA | 2000",
+      "img": "assets/nana.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 228,
+      "title": "MAID SAMA : CHAPTER 86",
+      "author": "HIRO | 2005",
+      "img": "assets/MS.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 229,
+      "title": "YOUR LIE IN APRIL",
+      "author": "NAOSHI | 2011",
+      "img": "assets/ya.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 230,
+      "title": "VAMPIRE KNIGHT",
+      "author": "MATSURI | 2013",
+      "img": "assets/vk.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 231,
+      "title": "BERSERK",
+      "author": "KENTSRO | 1988",
+      "img": "assets/br.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 232,
+      "title": "VAGABOND",
+      "author": "TAKEHIKO | 1998",
+      "img": "assets/vagabond.jpeg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 233,
+      "title": "VINLAND SAGA",
+      "author": "MAKATO | 2005",
+      "img": "assets/vl.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 234,
+      "title": "PARASYTE",
+      "author": "HITOSHI | 1990",
+      "img": "assets/parasyte.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 235,
+      "title": "TOKYO GHOUL",
+      "author": "SUI ISHIDA | 2012",
+      "img": "assets/tg.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 236,
+      "title": "MONSTER",
+      "author": "NAOKI | 1995",
+      "img": "assets/monster.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 237,
+      "title": "DORAEMON | LAST VOLUME",
+      "author": "FUJIKO | 1969",
+      "img": "/assets/doraemon.png",
+      "price": " Rs.250 "
+    },
+    {
+      "id": 238,
+      "title": "BEYBLADE",
+      "author": "YOSHIO | 2002",
+      "img": "assets/bb.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 239,
+      "title": "FAIRY TALE",
+      "author": "HIRO | 2006",
+      "img": "assets/sonic.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 240,
+      "title": "FULL METAL ALCHEMIST",
+      "author": "ARAKAWA | 2001",
+      "img": "assets/FMA.jpg",
+      "price": " Rs.750 "
+    },
+    {
+      "id": 241,
+      "title": "BLUE SPRING",
+      "author": "MATSUMOTO | 1993",
+      "img": "assets/BS.jpg",
+      "price": " Rs.750 "
+    }
+  ],
+  "cart": [
+    {
+      "id": 208,
+      "title": "CIVIL WAR",
+      "author": "MARK MILLER | 2006",
+      "img": "assets/cw3.jpg",
+      "price": " Rs.500 "
+    },
+    {
+      "id": 221,
+      "title": "ONE PIECE : CHAPTER 1079",
+      "author": "ODA | 24.03.2023",
+      "img": "assets/one piece-chapter 1079.jpg",
+      "price": " Rs.75 "
+    }
+  ],
+  "payment": [
+    {
+      "id": 219,
+      "title": "INJUSTICE 2",
+      "author": "TOM TAYLOR | 2017",
+      "img": "assets/IJ.jpg",
+      "price": " Rs.750 "
+    }
+  ],
+  "orders": [
+    {
+      "userName": "",
+      "userId": "8",
+      "productId": 219,
+      "productTitle": "INJUSTICE 2",
+      "productThumbnail": "assets/IJ.jpg",
+      "productPrice": " Rs.750 ",
+      "grandTotalAmount": " Rs.750 50",
+      "paymentOption": "COD",
+      "cardHolderName": "",
+      "deliveryStatus": "InProcess",
+      "id": 1
+    }
+  ],
+  "logs":
+  []
+}

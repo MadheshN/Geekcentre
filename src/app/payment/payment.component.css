@@ -1,0 +1,241 @@
+
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(27, 22, 22);
+  color:black;
+  font-weight: bold;
+  margin: -1%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Products Section */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+
+  padding: 20px;
+  background-color:#222;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  height: 120vh;
+}
+
+.image img {
+  width: 20%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.desc {
+  color: white;
+  margin-top: 5px;
+}
+
+.originalPrice {
+  margin-top: 10px;
+}
+
+.price {
+  margin-top: 20px;
+}
+
+.pay {
+  margin-top: 15px;
+  color: white;
+
+}
+
+.pay input[type="submit"] {
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 90%;
+  margin-bottom: 20px;
+}
+
+.address {
+  width: 400px;
+  margin-left:30%;
+  margin-top: -100%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.labelText {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="radio"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 150px;
+  background: #e50914;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background: #ff0a16;
+}
+
+/* Optional: Style for Credit Card form fields */
+.credit-card-fields {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.credit-card-fields.show {
+  display: block;
+}
+
+.credit-card-fields label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.credit-card-fields input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #333;
+}
+
+.credit-card-fields input[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  margin-top: 0;
+}
+
+/* Optional: Style for Netflix-like button */
+button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0a16;
+}
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.social-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}

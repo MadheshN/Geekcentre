@@ -1,0 +1,93 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div class="navbar">
+  <div class="icon">
+      <h2 class="logo">Toonmics</h2>
+  </div>
+
+  <div class="menu">
+    <ul>
+
+    <li><a routerLink="/login"><i class="fa fa-arrow-left"></i></a></li>
+
+  </ul>
+  </div>
+</div>
+  <div class="containerbody">
+    <div class="form">
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <label for="name">Name</label>
+        <input type="text" id="name" formControlName="name">
+      <!-- <div *ngIf="signupForm.controls['name'].invalid && signupForm.controls['name'].touched">
+          <div *ngIf="signupForm.controls['name'].errors?.required">Name is required.</div>
+        </div>-->
+
+        <label for="phoneNumber">Phone Number</label>
+        <input type="text" id="phoneNumber" formControlName="phoneNumber">
+       <!-- <div *ngIf="signupForm.controls['phoneNumber'].invalid && signupForm.controls['phoneNumber'].touched">
+          <div *ngIf="signupForm.controls['phoneNumber'].errors?.required">Phone number is required.</div>
+        </div>-->
+
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" formControlName="dob">
+        <!-- <div *ngIf="signupForm.controls['dob'].invalid && signupForm.controls['dob'].touched">
+          <div *ngIf="signupForm.controls['dob'].errors?.required">Date of Birth is required.</div>
+        </div>-->
+        <label for="gender">Gender</label>
+        <div class="gender-options">
+          <input type="radio" id="male" name="gender" formControlName="gender" value="male">
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" formControlName="gender" value="female">
+          <label for="female">Female</label>
+
+          <input type="radio" id="others" name="gender" formControlName="gender" value="others">
+          <label for="others" class="arrow-label">
+            Others
+          </label>
+        </div>
+
+       <!-- <div *ngIf="signupForm.controls['gender'].invalid && signupForm.controls['gender'].touched">
+          <div *ngIf="signupForm.controls['gender'].errors?.required">Gender is required.</div>
+        </div>-->
+
+        <label for="password">Password</label>
+        <input type="password" id="password" formControlName="password">
+      <!--  <div *ngIf="signupForm.controls['password'].invalid && signupForm.controls['password'].touched">
+          <div *ngIf="signupForm.controls['password'].errors?.required">Password is required.</div>
+        </div>-->
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" formControlName="confirmPassword">
+       <!-- <div *ngIf="signupForm.controls['confirmPassword'].invalid && signupForm.controls['confirmPassword'].touched">
+          <div *ngIf="signupForm.controls['confirmPassword'].errors?.required">Confirm Password is required.</div>
+        </div>-->
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+    </div>
+  </body>
+  <footer class="footer">
+    <div class="containerfooter">
+      <div class="about-us">
+        <h4>About Us</h4>
+        <p>We are passionate about providing a seamless and immersive reading experience for comic and manga enthusiasts. With our app, you can explore a vast collection of comics and manga from various genres, including superheroes, fantasy, romance, action, and more. Dive into captivating stories and stunning artwork that will keep you hooked for hours. Our mission is to bring offering a convenient and user-friendly platform to discover, read, and enjoy your favorite titles. Whether you're a casual reader or a die-hard fan, we've got something for everyone. Join our community of readers, interact with fellow comic enthusiasts, and stay updated on the latest releases. We're dedicated to delivering the best reading experience, continuously improving our app, and expanding our library with new and exciting content. Thank you for choosing our app to embark on your comic and manga reading journey. </p>
+      </div>
+      <div class="address">
+        <h4>Contact Us</h4>
+        <p>1234 Gandhi Street, Coimbatore, Tamil Nadu, India</p>
+        <p>Email: toonmics@gmail.com</p>
+        <p>Phone: 456-456-7890</p>
+      </div>
+
+      <div class="social-links">
+        <ul>
+          <li><a routerLink= "https://www.facebook.com/profile.php?id=100094265611706"><i class="fa fa-facebook"></i></a></li>
+          <li><a routerLink= "https://twitter.com/Toonmics"><i class="fa fa-twitter"></i></a></li>
+          <li><a routerLink= "https://instagram.com/toon.mics?igshid=ZDc4ODBmNjlmNQ=="><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>

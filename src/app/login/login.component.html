@@ -1,0 +1,53 @@
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <div class="navbar">
+    <div class="icon">
+        <h2 class="logo">Toonmics</h2>
+    </div>
+
+    <div class="menu">
+      <ul>
+
+      <li><a routerLink="/index"><i class="fa fa-arrow-left"></i></a></li>
+
+    </ul>
+    </div>
+  </div>
+  <div class="containerbody">
+    <div class="FormContainer" align="center" >
+  
+    <form [formGroup]="myForm">
+      <h2 style="text-align:center;color:#e50914;">Login</h2>
+
+      <label for="name">Username</label><br>
+      <input type="text" id="name" formControlName="name" [(ngModel)]="userName" name="userName" ><br><br>
+      <div *ngIf="myForm.get('name')?.invalid && myForm.get('name')?.touched">
+        <div *ngIf="myForm.get('name')?.errors?.['invalidUsername']" class="errorMessage">
+          Invalid username. Only alphabetic characters allowed.
+        </div>
+      </div>
+
+      <label for="password">Password</label><br>
+      <input type="password" id="password" formControlName="password" name="pass" [(ngModel)]="password">
+      <div *ngIf="myForm.get('password')?.invalid && myForm.get('password')?.touched">
+        <div *ngIf="myForm.get('password')?.errors?.['invalidPassword']" class="errorMessage">
+          Password should have a minimum of 6 characters.
+        </div>
+      </div>
+      
+
+
+      <button type="submit" (click)="onLogin()">Login</button><br><br>
+
+      <button class="signup-btn" routerLink="/signup">Sign Up</button>
+
+  </form>
+
+  </div>
+
+
+
+
+

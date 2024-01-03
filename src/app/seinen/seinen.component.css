@@ -1,0 +1,314 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(27, 22, 22);
+  color:white;
+  margin: -1%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(143, 143, 143);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);height: 12vh;
+}
+.menu li i
+{
+color:black;
+}
+.user-info {
+  color: #e50914;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  margin-top: -1%;
+  margin-left: -5%;
+
+}
+
+/* Logout button styles */
+.user-info button {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 30px;
+
+}
+.menu span {
+  margin-right: 30px;
+  color:white;
+  font-weight: bold;
+}
+
+.menu button {
+  padding: 8px 16px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color:rgb(143, 143, 143); ;
+}
+
+.menu button:hover {
+  color: #e50914;
+  background-color:rgb(143, 143, 143);
+}
+.icon .logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10%;
+
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 7%;
+
+}
+
+.menu ul li {
+  margin-right: 50px;
+
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  margin-top:7vh;
+}
+
+.menu ul li a:hover {
+  color: #e50914;
+}
+
+.seinen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+  background-color:#222;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card .img img {
+  width: 80%;
+  height: auto;
+}
+
+.card .title,
+.card .desc {
+  padding: 10px;
+  color: #fff;
+}
+
+.card .title {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.card .price {
+  font-weight: bold;
+  color: yellow;
+  text-decoration: none;
+  margin-left: 70%;
+  margin-top:5%;
+}
+
+.card .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #e50914;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+  background-color: #b2070d;
+}
+
+#cartButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+#cartButton i {
+  margin-right: 5px;
+}
+
+#cartButton:hover {
+  color: rgb(15, 238, 15);
+}
+
+#wishlistButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color:rgb(143, 143, 143);
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+#wishlistButton i {
+  margin-right: 5px;
+}
+
+#wishlistButton:hover {
+  color: red;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .seinen {
+    padding: 10px;
+  }
+
+  .card {
+    width: 150px;
+    margin: 10px;
+  }
+}
+.footer {
+  background-color: #141414;
+  padding: 40px 0;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-top: 6%;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-us,
+.address,
+.social-links {
+  flex: 1;
+}
+
+.about-us h4
+{margin-bottom: 20px;
+  font-size: 18px;
+}
+.about-us p
+{
+  margin-bottom: 20px;
+  font-size: 15px;
+  margin-left:-50%;
+}
+
+.address h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: 60%;
+}
+
+.address p {
+  margin-bottom: 10px;
+  margin-left: 60%;
+}
+
+.social-links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  margin-top: 7%;
+}
+
+.social-links li {
+  margin-left: 30px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links i {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.social-links a:hover {
+  color: #e50914;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .about-us,
+  .address,
+  .social-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about-us h4,
+  .address h4 {
+    margin-bottom: 15px;
+  }
+
+  .social-links ul {
+    justify-content: flex-start;
+  }
+}
+#buyButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color:rgb(143, 143, 143);
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}
+
+#buyButton i {
+  margin-right: 5px;
+}
+
+#buyButton:hover {
+  color: rgb(15, 238, 15);
+}

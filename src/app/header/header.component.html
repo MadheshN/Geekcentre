@@ -1,0 +1,26 @@
+<div class="navbar">
+  <div class="icon">
+      <h2 class="logo">Toonmics</h2>
+  </div>
+
+  <div class="menu">
+    <ul>
+      <li><a routerLink="/home"><i class="fa fa-home"></i></a></li>
+      <li><a routerLink="/orders"><i class="fa fa-shopping-bag"></i></a></li>
+    <li><a routerLink="/wishlist"><i class="fa fa-heart"></i></a></li>
+    <li><a routerLink="/cart"><i class="fa fa-shopping-cart"></i></a></li>
+    <div class="user-info">
+      <ng-container *ngIf="currentUser; else notLoggedIn">
+         {{ currentUser }}
+        <button (click)="logout()"><i class="fa fa-sign-out"></i></button>
+      </ng-container>
+      <ng-template #notLoggedIn>
+        Not logged in
+      </ng-template>
+    </div>
+    <li><a routerLink="/home"><i class="fa fa-arrow-left"></i></a></li>
+
+
+  </ul>
+  </div>
+</div>
